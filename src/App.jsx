@@ -3,6 +3,7 @@ import './App.css'
 import TestNav from './Components/TestNav/TestNav'
 import PriceOptions from './Components/PriceOptions/PriceOptions'
 import LineChart from './Components/LineChart/LineChart'
+import Phones from './Components/Phones/Phones'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <br />
       <h2>Line LineChart</h2>
       <LineChart></LineChart>
+      <Phones></Phones>
     </>
   )
 }
